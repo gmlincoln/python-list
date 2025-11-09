@@ -1,4 +1,4 @@
-# 🐍 Python List Practice & Documentation
+#  Python List
 
 Welcome to the **Python List Practice** guide!  
 This file covers everything from basic to advanced list operations with examples and explanations.
@@ -30,24 +30,26 @@ fruits = ["apple", "banana", "cherry"]
 numbers = [10, 20, 30, 40, 50]
 mixed = [1, "hello", 3.14, True]
 print(fruits)
-Output:
+```
 
-css
-Copy code
+```bash
+Output:
 ['apple', 'banana', 'cherry']
+
+```
 🎯 Access List Elements
-python
-Copy code
+```python
 fruits = ["apple", "banana", "cherry", "orange"]
 print(fruits[0])     # First item
 print(fruits[-1])    # Last item
 print(fruits[2])     # Element at index 2
+```
 ✏️ Modify List Elements
-python
-Copy code
+```python
+fruits = ["apple", "banana", "cherry", "orange"]
 fruits[1] = "grape"
 print(fruits)
-
+```
 nums = [10, 20, 30, 40, 50]
 nums[-2:] = [60, 70]
 print(nums)
@@ -89,7 +91,7 @@ for fruit in fruits:
 for i, fruit in enumerate(fruits):
     print(i, fruit)
 ```
-#### ⚙️ List Comprehensions
+⚙️ List Comprehensions
 
 ```python
 
@@ -158,13 +160,14 @@ list1 = [1, 2, 3]
 list2 = list1.copy()
 list3 = list1[:]
 
-```
+
 list1.append(4)
 print(list1)
 print(list2)
+```
 ⚡ Advanced Practice
-python
-Copy code
+```python
+
 # Remove duplicates
 nums = [1, 2, 2, 3, 4, 4, 5]
 unique = list(set(nums))
@@ -182,10 +185,11 @@ nested = [[1, 2], [3, 4]]
 flat = [x for sub in nested for x in sub]
 
 print(unique, merged, common, flat)
-💡 Mini Projects
+```
+### 💡 Mini Projects
 🧮 1. Student Marks Analyzer
-python
-Copy code
+```python
+
 marks = [85, 90, 78, 92, 88]
 print("Average:", sum(marks)/len(marks))
 print("Highest:", max(marks))
@@ -198,13 +202,17 @@ cart.append("Milk")
 cart.append("Bread")
 cart.remove("Milk")
 print(cart)
+```
 📄 3. Unique Word Extractor
-python
-Copy code
+
+```python
+
 text = "Python is fun and Python is powerful"
 words = text.split()
 unique_words = list(set(words))
 print(unique_words)
+
+```
 🧠 Practice Task
 At the end of this page, find the Practice Section and try solving the exercises by yourself!
 
@@ -214,6 +222,3 @@ They allow you to store, modify, and iterate over collections of data easily.
 
 Keep practicing the above examples and challenges to master lists in Python!
 
-✍️ Author: Golam Maula Lincoln
-🎓 Topic: Python List Practice
-📅 Updated: November 2025
