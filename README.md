@@ -38,6 +38,7 @@ Output:
 
 ```
 🎯 Access List Elements
+
 ```python
 fruits = ["apple", "banana", "cherry", "orange"]
 print(fruits[0])     # First item
@@ -45,24 +46,27 @@ print(fruits[-1])    # Last item
 print(fruits[2])     # Element at index 2
 ```
 ✏️ Modify List Elements
+
 ```python
 fruits = ["apple", "banana", "cherry", "orange"]
 fruits[1] = "grape"
 print(fruits)
-```
+
 nums = [10, 20, 30, 40, 50]
 nums[-2:] = [60, 70]
 print(nums)
+```
 ➕ Add Elements
-python
-Copy code
+
+```python
 fruits.append("mango")
 fruits.insert(1, "orange")
 fruits.extend(["kiwi", "papaya"])
 print(fruits)
+```
 ➖ Remove Elements
+
 ```python
-Copy code
 fruits.remove("banana")   # Remove by value
 fruits.pop()              # Remove last item
 del fruits[1]             # Remove by index
@@ -70,8 +74,8 @@ fruits.clear()            # Remove all
 print(fruits)
 ```
 🔁 List Operations
+
 ```python
-Copy code
 a = [1, 2, 3]
 b = [4, 5, 6]
 print(a + b)       # Concatenate
