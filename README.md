@@ -153,7 +153,7 @@ for row in matrix:
     for num in row:
         print(num, end=" ")
 ```
-
+📋 Copying Lists
 ``` python
 
 list1 = [1, 2, 3]
@@ -194,9 +194,9 @@ marks = [85, 90, 78, 92, 88]
 print("Average:", sum(marks)/len(marks))
 print("Highest:", max(marks))
 print("Lowest:", min(marks))
+```
 🛒 2. Shopping Cart
-python
-Copy code
+```python
 cart = []
 cart.append("Milk")
 cart.append("Bread")
